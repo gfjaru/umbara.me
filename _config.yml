@@ -1,0 +1,16 @@
+title: 
+author:       Fajar Umbara
+email:        fajar@umbara.me
+url:          https://umbara.me
+baseurl:      ""
+description:  A (nearly) no-CSS, fast, minimalist Jekyll theme.
+permalink:    /:slug.html
+
+favicon:      "logo.png"
+
+sass:
+  style:      compressed
+
+plugins:
+  - jekyll-seo-tag
+  - jekyll-feed

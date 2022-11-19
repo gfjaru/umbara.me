@@ -1,0 +1,33 @@
+.container {
+  max-width: 48rem;
+  padding: 2rem;
+
+  .header {
+    display: block;
+  }
+
+  .header h1 {
+    display: inline;
+  }
+
+  .header a {
+    display: inline;
+    opacity: .6;
+  }
+
+  .header a:before {
+    content: '<';
+    margin-left: 10px;
+  }
+
+  .header a:after {
+    content: '>';
+    font-size: inherit;
+    vertical-align: baseline;
+    margin-left: 0;
+  }
+
+  .content {
+    display: block;
+  }
+}

@@ -2,8 +2,12 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: monospace;
+}
+
+html {
+  font-size: 18px;
+  line-height: 1.8;
 }
 
 a {
@@ -11,14 +15,27 @@ a {
   text-decoration: none;
 }
 
+a:after {
+  content: '🡕';
+  font-size: .5rem;
+  margin-left: 5px;
+  vertical-align: super;
+}
+
 * {
   box-sizing: border-box;
+}
+
+h1, h2, h3 {
+  font-size: 1rem;
+  font-weight: 400;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
+
   body {
     color: white;
     background: black;
